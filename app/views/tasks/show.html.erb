@@ -8,4 +8,11 @@
       <label for="not completed">This task has not been completed yet</label>
     <% end %>
 </p>
-<p><%= link_to 'Go back', tasks_path %></p>
+
+<div class="btn btn-primary list-inline" id="btn-edit" >
+  <a href="" class="link"><%= link_to 'Edit', task_path(edit) %></a>
+</div>
+
+<div class="btn btn-primary list-inline" id="btn-back" >
+  <a href="" class="link"><%= link_to 'Go back', tasks_path %></a>
+</div>
