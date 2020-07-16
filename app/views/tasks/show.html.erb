@@ -10,9 +10,13 @@
 </p>
 
 <div class="btn btn-primary list-inline" id="btn-edit" >
-  <a href="" class="link"><%= link_to 'Edit', task_path(edit) %></a>
+  <a href="" class="link"><%= link_to 'Edit', edit_path %></a>
 </div>
 
 <div class="btn btn-primary list-inline" id="btn-back" >
-  <a href="" class="link"><%= link_to 'Go back', tasks_path %></a>
+  <a href=""><%= link_to 'Go back', tasks_path %></a>
+</div>
+
+<div class="btn btn-primary list-inline" id="btn-back" >
+  <a href=""><%= link_to 'Delete', task_path(@task), method: :delete %></a>
 </div>

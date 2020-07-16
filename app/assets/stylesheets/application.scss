@@ -31,14 +31,20 @@
  }
 
  .btn {
-   width: 120px;
+   width: 180px;
    height: 48px;
    color: white;
    text-align: center;
    justify-content: center;
  }
 
- .link {
-   text-decoration: none;
+ a {
+   color:black;
+ }
+ a:hover {
+   background-color: black;
+   border-radius: 4px;
    color: white;
+   text-decoration: none;
+   text-shadow: white;
  }
